@@ -41,7 +41,7 @@ const getProductos = async (req, res) => {
       conStock,
       buscar,
       pagina = 1,
-      limite = 10
+      limite = 100
     } = req.query;
     
     // Construir filtros
