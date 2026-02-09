@@ -38,7 +38,7 @@ const getProductos = async (req, res) => {
       precioMax,
       orden = 'reciente',
       pagina = 1,
-      limite = 100
+      limite = 12
     } = req.query;
 
     const { Op } = require('sequelize');
