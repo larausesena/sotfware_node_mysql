@@ -255,11 +255,33 @@ http://localhost:5000/uploads/nombre-imagen.jpg
 ✅ API RESTful completamente funcional  
 ✅ Código completamente comentado en español  
 
-## 📖 Documentación
+## 📖 Documentación Completa
 
-- [Plan de Trabajo Detallado](PLAN_DE_TRABAJO.md)
-- [README Backend](backend/README.md)
-- [README Frontend](frontend/README.md)
+### 📋 Documentos Principales
+- [Plan de Trabajo](PLAN_DE_TRABAJO.md) - Plan de las 12 fases del proyecto
+- [Reporte de Verificación](REPORTE_VERIFICACION.md) - Estado actual de documentación vs implementación
+
+### 🔧 Documentación del Desarrollo
+- [DESARROLLO.md](DESARROLLO.md) - Fases 1-7 del Backend (5,450 líneas)
+  - Fase 1: Configuración Inicial
+  - Fases 2-3: Modelos Sequelize
+  - Fase 4: Autenticación JWT
+  - Fase 5: APIs del Administrador
+  - Fase 6: APIs del Cliente
+  - Fase 7: Testing con Jest
+
+- [DESARROLLO_FRONTEND.md](DESARROLLO_FRONTEND.md) - Fases 8-11 del Frontend (3,200 líneas)
+  - Fase 8: Configuración Inicial (React, Router, Bootstrap)
+  - Fase 9: Autenticación (Context API, Login, Registro)
+  - Fase 10: Panel de Administrador (CRUD interfaces)
+  - Fase 11: Panel de Cliente (Catálogo, Carrito, Checkout)
+
+### 📚 Documentación Específica
+- [Backend README](backend/README.md) - Instrucciones quick-start del backend
+- [Frontend README](frontend/README.md) - Instrucciones quick-start del frontend
+- [Backend - Manual de Pruebas Postman](backend/MANUAL_PRUEBAS_POSTMAN.md) - 70+ páginas de ejemplos
+- [Backend - Pruebas de API](backend/PRUEBAS_API.md) - Documentación de endpoints
+- [Backend - Instrucciones de Seeder](backend/INSTRUCCIONES_SEEDER.md) - Cómo insertar datos"
 
 ## 🔄 Estado del Proyecto
 

@@ -294,7 +294,7 @@ const toggleCategoria = async (req, res) => {
       });
     }
     
-    // Alternar estado activo
+    // Alter nar estado activo
     const nuevoEstado = !categoria.activo;
     categoria.activo = nuevoEstado;
     
